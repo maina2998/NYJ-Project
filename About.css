@@ -1,0 +1,62 @@
+
+.navbar{
+    text-align: right ;
+    flex: 1;
+}
+nav{
+    flex: 1;
+    padding-left: 60px; 
+    float: right; 
+    flex: 2;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px; 
+ }
+nav ul li a{
+text-decoration: none;
+font-size: 25px;
+color:rgb(0, 0, 0);
+
+
+}
+body{
+    /* background-color:url("images/color.png") ; */
+    background-image: url("images/images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200 px;
+    height: 200 px;
+}
+h1{
+    text-align: center; 
+    font-family: 'Nosifer', cursive;
+}
+p{
+    font-size: 25px;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+    
+   
+
+}
+/* .row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* .column{
+    float:center;
+    /* width: 33.3%; */
+    /* padding: 5%; */
+    
+#Bio{
+    text-align: center;
+     padding-top: 5%;
+}
+img{
+    width: 40%;
+    height: 30%;
+    padding-left: 30%;
+}
